@@ -26,7 +26,7 @@ export default createGlobalStyle`
     --instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     --youtube: hsl(348, 97%, 39%);
 
-    --dark-toggle: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --dark-toggle: linear-gradient(to-right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     --light-toggle: hsl(230, 22%, 74%);
 
     --very-dark-blue-BG: hsl(230, 17%, 14%);
@@ -40,6 +40,8 @@ export default createGlobalStyle`
     --light-grayish-blue-card-BG: hsl(227, 47%, 96%);
     --dark-grayish-blue-text: hsl(228, 12%, 44%);
     --very-dark-blue-text: hsl(230, 17%, 14%);
+
+    --white: #FFF;
 
     --font-size: 14px;
   }
