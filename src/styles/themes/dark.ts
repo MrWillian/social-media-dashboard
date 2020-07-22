@@ -5,7 +5,7 @@ export default {
     background: 'hsl(230, 17%, 14%)',
     background_header: 'hsl(232, 19%, 15%)',
 
-    background_card: 'hsl(232, 19%, 15%)',
+    background_card: 'hsl(228, 28%, 20%)',
     text_card: 'hsl(228, 34%, 66%)',
 
     toggle: '#3eda82',
