@@ -17,4 +17,10 @@ declare module 'styled-components' {
       text: string;
     },
   }
+
+  export interface SocialMedia {
+    title: string;
+    color: string;
+    icon: Icon;
+  }
 }

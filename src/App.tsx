@@ -9,11 +9,9 @@ import GlobalStyles from './styles/GlobalStyles';
 import Dashboard from './pages/Dashboard';
 
 const App = () => {
-  const [theme, setTheme] = 
-    usePersistedState<DefaultTheme>('@social-media/theme', dark);
+  const [theme, setTheme] = usePersistedState<DefaultTheme>('@social-media/theme', dark);
   
-  const toggleTheme = () => 
-    setTheme(theme.title === 'light' ? dark : light);
+  const toggleTheme = () => setTheme(theme.title === 'light' ? dark : light);
   
   return (
     <ThemeProvider theme={theme}>
