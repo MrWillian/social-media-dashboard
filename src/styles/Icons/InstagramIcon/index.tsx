@@ -20,15 +20,15 @@ export const InstagramIcon: React.FC<Icon> = () => {
           
           <stop 
             offset="0%" 
-            stop-color="#DF4896"
+            stopColor="#DF4896"
           />
           <stop 
             offset="50.913%" 
-            stop-color="#EE877E"
+            stopColor="#EE877E"
           />
           <stop 
             offset="100%" 
-            stop-color="#FDC366"
+            stopColor="#FDC366"
           />
 
         </linearGradient>
