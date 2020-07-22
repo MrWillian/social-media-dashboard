@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import {
   UpIcon,
   DownIcon,
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
+  YoutubeIcon,
 } from '../../styles/Icons/icons';
 
 export const Container = styled.div`
@@ -67,7 +71,7 @@ export const CardFooter = styled.div`
     margin-left: 5px;
 
     &.red {
-      color: var(--youtube);
+      color: #DC414C;
     }
 
     &.green:not(:first-child) {
@@ -75,3 +79,9 @@ export const CardFooter = styled.div`
     }
   }
 `;
+
+
+export const Facebook = styled(FacebookIcon)``;
+export const Twitter = styled(TwitterIcon)``;
+export const Instagram = styled(InstagramIcon)``;
+export const Youtube = styled(YoutubeIcon)``;
