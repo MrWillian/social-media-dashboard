@@ -27,6 +27,7 @@ export const CardHeader = styled.div`
 
   > strong {
     color: ${props => props.theme.colors.text_card};
+    font-size: 12px;
     margin-left: 10px;
   }
 `;
