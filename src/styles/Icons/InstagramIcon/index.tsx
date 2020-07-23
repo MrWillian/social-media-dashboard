@@ -11,7 +11,7 @@ export const InstagramIcon: React.FC<Icon> = () => {
       <defs>
 
         <linearGradient 
-          id="a" 
+          id="a2" 
           x1="100%" 
           x2="0%" 
           y1="0%" 

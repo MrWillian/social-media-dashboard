@@ -21,7 +21,8 @@ const Switch: React.FC<Props> = ({
     <Container
       className={checked ? 'checked' : ''}>
       
-      <Switcher
+      <Switcher 
+        aria-label="switch"
         onClick={onClick} />
 
     </Container>
