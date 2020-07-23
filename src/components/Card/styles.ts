@@ -14,13 +14,23 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  border-top: 5px solid;
   border-radius: 5px;
-  border-color: ${props => props.color};
+  position: relative;
   
   margin: 20px;
   background-color: ${props => props.theme.colors.background_card};
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -1px; right: 0; left: 0;
+    min-height: 5px;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+    background: ${props => props.color};
+  }
 `;
 
 export const CardHeader = styled.div`
