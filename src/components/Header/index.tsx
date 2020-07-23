@@ -4,6 +4,7 @@ import Switch from '../Switch';
 
 import { 
   Container,
+  Top,
   Divisor,
   ThemeSwitcherContainer
 } from './styles';
@@ -17,8 +18,10 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 
   return (
     <Container>
-      <h2>Social Media Dashboard</h2>
-      <span>Total Followers: 23,004</span>
+      <Top>
+        <h2>Social Media Dashboard</h2>
+        <span>Total Followers: 23,004</span>
+      </Top>
 
       <Divisor />
 
